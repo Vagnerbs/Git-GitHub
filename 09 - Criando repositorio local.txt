@@ -1,0 +1,33 @@
+
+Obs: Temos que entrar na pasta e depois abrir o git pois ele reconhece a partir da pasta que abrimos
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/gitTeste
+$ ls      /  lista os arquivos da pasta
+hello.txt
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/gitTeste
+$ ls -a   /  lista os arquivos da pasta até os escondidos
+./  ../  hello.txt
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/gitTeste
+$ git init / Com esse comando o git inicializa o repositório pois ainda não era 
+Initialized empty Git repository in G:/Meu Drive/gitTeste/.git/
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/gitTeste (master)  / Agora aparecera o "master", o ramo ou branch
+$ 
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/gitTeste (master)
+$ ls -a / Agora dando esse comando aparecerá dessa forma a pasta, pois se tornou um repositório git 
+./  ../  .git/  hello.txt
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git config --global init.defaultBranch Vagner / Com esse comando mudamos o nome da Branch,
+porém temos que apagar apagar a pasta e criar novamente para inicializar com o novo nome da Branch com o comando abaixo.
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git init / Ele me mostrara o novo nome da Branch, porém não gostei por ter que apagar a pasta e criar novamente
+Reinitialized existing Git repository in G:/Meu Drive/git teste/.git/
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$
+

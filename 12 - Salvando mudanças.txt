@@ -1,0 +1,10 @@
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git commit -m "Versão inicial" / Esse comando salva as mudanças e você insere mensagem para identificar o que foi feito
+[Vagner (root-commit) dbd3b6e] Versão inicial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git status
+On branch Vagner
+nothing to commit, working tree clean

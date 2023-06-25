@@ -1,0 +1,59 @@
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git add .
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git status
+On branch Vagner
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello - Copia (2).txt
+        new file:   hello - Copia (3).txt
+        new file:   hello - Copia.txt
+        new file:   hello.txt
+
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git rm --cached hello.txt / Com esse comando o arquivo para de ser rastrado pelo git e não irá subir com os demais
+rm 'hello.txt'
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git status  /  Ao colocar o comando git status novamente ele aparece como "untracked", não rastreado
+On branch Vagner
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello - Copia (2).txt
+        new file:   hello - Copia (3).txt
+        new file:   hello - Copia.txt
+
+Untracked files: / "untracked", não rastreado
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+REMOVER TODOS ARQUIVOS DO RASTREIO DO GIT DE UMA SÓ VEZ
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git rm --cached -r . / Esse é comando usado, ao dar umm git status apareca tudo como untracked
+rm 'hello - Copia (2).txt'
+rm 'hello - Copia (3).txt'
+rm 'hello - Copia.txt'
+
+vagne@DESKTOP-9NEV8OJ MINGW64 /g/Meu Drive/git teste (Vagner)
+$ git status
+On branch Vagner
+
+No commits yet
+
+Untracked files: / Aqui está todos fora do rastreio untracked
+  (use "git add <file>..." to include in what will be committed)
+        hello - Copia (2).txt
+        hello - Copia (3).txt
+        hello - Copia.txt
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+

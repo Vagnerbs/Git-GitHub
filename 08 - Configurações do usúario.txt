@@ -1,0 +1,13 @@
+vagne@DESKTOP-9NEV8OJ MINGW64 ~/OneDrive/Área de Trabalho
+$ git config --global user.name "Vagner Bruno da Silva"
+
+vagne@DESKTOP-9NEV8OJ MINGW64 ~/OneDrive/Área de Trabalho
+$ git config --global user.email "vagnerb1987@gmail.com"
+
+vagne@DESKTOP-9NEV8OJ MINGW64 ~/OneDrive/Área de Trabalho
+$ git config --global user.name
+Vagner Bruno da Silva
+
+vagne@DESKTOP-9NEV8OJ MINGW64 ~/OneDrive/Área de Trabalho
+$ git config --global user.email
+vagnerb1987@gmail.com
